@@ -1,34 +1,9 @@
-export const pacientes = [
-    {
-        nome: 'Alan Turing',
-        setor: 'Clínico Geral',
-    },
-    {
-        nome: 'Ada Lovelace',
-        setor: 'Ortopedista',
-    },
-    {
-        nome: 'Grace Hopper',
-        setor: 'Cardiologista',
-    },
-    {
-        nome: 'Linus Torvalds',
-        setor: 'Clínico Geral',
-    },
-    {
-        nome: 'Margaret Hamilton',
-        setor: 'Clínico Geral',
-    },
-    {
-        nome: 'Tim Berners-Lee',
-        setor: 'Cardiologista',
-    },
-]
-
-// Realiza triagem em um paciente
-export function triagem(paciente) {
-    const prioridades = ['emergência', 'urgente', 'preferencial', 'comum']
-    const prioridade = prioridades[Math.floor(Math.random() * prioridades.length)]
-    paciente.prioridade = prioridade
-    return paciente
-}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var paciente;
+paciente = {
+    id: 662785,
+    name: 'joao',
+    age: 78,
+    consulta: 'clinico geral'
+};
